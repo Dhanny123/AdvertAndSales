@@ -38,7 +38,7 @@ data = pd.read_csv('AdvertAndSales.csv')
 st.dataframe(data, use_container_width = True)
 
 
-st.sidebar.image('pngwing.com.png', caption= 'Welcome User')
+st.sidebar.image('user.png', caption= 'Welcome User')
 
 # Feature Input 
 tv = st.sidebar.number_input('Television Advert Expense',min_value = 0.0, max_value = 10000.0, value = data.TV.median())
