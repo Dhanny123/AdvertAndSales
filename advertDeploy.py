@@ -63,7 +63,7 @@ st.dataframe(inputVar)
 # Inport the transformers 
 tv_scaler = joblib.load('TV_scaler.pkl')
 radio_scaler = joblib.load('Radio_scaler.pkl')
-soc_scaler = joblib.load('Social Media_scaler.pkl')
+soc_scaler = joblib.load('Social_Media_scaler.pkl')
 inf_scaler = joblib.load('Influencer_encoder.pkl')
 
 # Use the imported transformers to transform the users input
