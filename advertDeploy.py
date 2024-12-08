@@ -23,7 +23,7 @@ st.markdown("<h4 style = 'margin: -30px; color: #E3651D; text-align: center; fon
 
 # Image 
 col1, col2, col3 = st.columns([1, 2, 1])
-col2.image('pngwing.com (14).png' )
+col2.image('pngwing.com.png')
 
 # Background To project 
 st.markdown("<h4 style = 'margin: -30px; color: #0E2954; text-align: center; font-family: helvetica '>Background Of The Project</h4>", unsafe_allow_html = True)
